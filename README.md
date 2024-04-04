@@ -5,7 +5,9 @@ Kali Linux is a widely used Linux distribution specifically designed for digital
 
 <details>
 <summary><h2>Information Gathering</h2><br>
+  
 Information gathering is the initial phase of a security assessment where various tools and techniques are employed to gather intelligence about a target system, network, or organization. This phase aims to collect as much relevant information as possible to better understand the target's infrastructure, potential vulnerabilities, and attack surface. Information gathering techniques may include network scanning, reconnaissance, enumeration, and open-source intelligence (OSINT) gathering. These techniques help security professionals identify potential entry points, weaknesses, and avenues for further exploitation during the assessment process.
+
 </summary>
 
   <summary><h3>Information Gathering Techniques</h3></summary>
@@ -144,7 +146,9 @@ Netdiscover is an active/passive ARP reconnaissance tool, it discovers hosts on 
 
 <details>
 <summary><h2>Vulnerability Analysis</h2><br>
+  
 Vulnerability analysis involves the systematic identification, assessment, and exploitation of weaknesses in computer systems, networks, and applications. This process aims to discover and mitigate security vulnerabilities that could be exploited by attackers to compromise the confidentiality, integrity, or availability of information assets. Vulnerability analysis techniques may include vulnerability scanning, penetration testing, fuzzing, and code review. By identifying and addressing vulnerabilities proactively, organizations can reduce the risk of security breaches and protect their assets from exploitation by malicious actors.
+
 </summary>
 
 ### Vulnerability Analysis Techniques
@@ -205,3 +209,57 @@ Unix-Privesc-Check is a script to check for simple privilege escalation vectors 
 <a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
 </details>
 
+<details>
+<summary><h2>Web Application Analysis</h2><br>
+
+Web Application Analysis involves assessing the security posture of web applications to identify and mitigate vulnerabilities that could be exploited by attackers. This process aims to ensure the confidentiality, integrity, and availability of web application data and resources.
+</summary>
+
+### Techniques
+
+#### 1. CMS & Framework Identification
+CMS & Framework Identification involves identifying the content management systems (CMS) and web application frameworks used by a target web application. This information helps in understanding the underlying technologies and potential vulnerabilities associated with them.
+
+#### 2. Web Application Proxies
+Web Application Proxies are tools used to intercept, inspect, and modify HTTP/HTTPS traffic between a web browser and a web server. They aid in analyzing and manipulating web application requests and responses for security testing purposes.
+
+#### 3. Web Crawlers & Directory Bruteforce
+Web Crawlers and Directory Bruteforce tools are used to systematically explore and map the structure of a web application by discovering hidden or unlinked pages, directories, and resources. This technique helps in identifying potential attack surfaces and hidden vulnerabilities.
+
+#### 4. Web Vulnerability Scanner
+Web Vulnerability Scanners are automated tools designed to identify security vulnerabilities in web applications by scanning for common issues such as SQL injection, cross-site scripting (XSS), and insecure configuration settings. They help in detecting and prioritizing vulnerabilities for further investigation and remediation.
+
+### Tools
+
+#### 1. Burp Suite
+Burp Suite is a powerful web application security testing toolkit that includes various tools for web vulnerability scanning, manual testing, and exploitation. It provides a comprehensive platform for assessing the security of web applications during development and deployment.
+- YouTube Video: [Burp Suite Tutorial](https://www.youtube.com/watch?v=1XL4OoJnKtI)
+  - Command: `burpsuite`
+
+#### 2. Commix
+Commix is an automated command injection tool specifically designed for web applications. It allows security testers to identify and exploit command injection vulnerabilities in web applications by automating the process of payload generation and injection.
+- YouTube Video: [Commix - Command Injection Tool](https://www.youtube.com/watch?v=YkMJo_7tiIc)
+  - Command: `commix`
+
+#### 3. Skipfish
+Skipfish is a web application security scanner developed by Google that performs comprehensive security assessments of web applications. It is known for its speed and efficiency in identifying vulnerabilities such as SQL injection, cross-site scripting (XSS), and directory traversal.
+- YouTube Video: [Skipfish - Web Application Security Scanner](https://www.youtube.com/watch?v=tbAxjM8sQQ8)
+  - Command: `skipfish`
+
+#### 4. SQLMap
+SQLMap is a powerful open-source tool used for automated SQL injection and database takeover attacks against web applications. It helps security testers identify and exploit SQL injection vulnerabilities by automatically detecting and exploiting them to retrieve database contents.
+- YouTube Video: [SQLMap - SQL Injection Tool](https://www.youtube.com/watch?v=CvIhJfmZw0s)
+  - Command: `sqlmap`
+
+#### 5. WebShells
+WebShells are malicious scripts or programs that attackers upload to compromised web servers to gain remote access and control over the server. They can be used to execute arbitrary commands, upload/download files, and perform various other malicious activities on the server.
+
+#### 6. WPScan
+WPScan is a WordPress vulnerability scanner that identifies security vulnerabilities and misconfigurations in WordPress websites. It specifically targets WordPress installations and plugins, providing security testers with valuable insights into potential weaknesses that could be exploited by attackers.
+- YouTube Video: [WPScan - WordPress Vulnerability Scanner](https://www.youtube.com/watch?v=M1mSQ2Ngt3A)
+  - Command: `wpscan`
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
