@@ -4,9 +4,11 @@
 Kali Linux is a widely used Linux distribution specifically designed for digital forensics and penetration testing. It comes pre-installed with numerous tools categorized into various domains such as information gathering, vulnerability analysis, exploitation, wireless attacks, reverse engineering, and more. Here's a brief overview of some of the categories and tools available in Kali Linux:
 
 <details>
-<summary><h2>Information Gathering</h2></summary>
+<summary><h2>Information Gathering</h2><br>
+Information gathering is the initial phase of a security assessment where various tools and techniques are employed to gather intelligence about a target system, network, or organization. This phase aims to collect as much relevant information as possible to better understand the target's infrastructure, potential vulnerabilities, and attack surface. Information gathering techniques may include network scanning, reconnaissance, enumeration, and open-source intelligence (OSINT) gathering. These techniques help security professionals identify potential entry points, weaknesses, and avenues for further exploitation during the assessment process.
+</summary>
 
-  <summary>Information Gathering Techniques</summary>
+  <summary><h3>Information Gathering Techniques</h3></summary>
  
 1. **DNS Analysis**: Examining Domain Name System (DNS) records to gather information about domain names, such as IP addresses, mail servers, and name servers associated with a particular domain.
 
@@ -28,7 +30,7 @@ Kali Linux is a widely used Linux distribution specifically designed for digital
 
 10. **SSL Analysis (Secure Sockets Layer)**: Analyzing SSL/TLS certificates and encryption configurations used to secure communications over the network, identifying cryptographic protocols and potential security vulnerabilities.
 
-<summary>Information Gathering Tools</summary>
+<summary><h3>Information Gathering Tools</h3></summary>
   Tools in this category are used to gather information about targets, including hosts, networks, and services.<br>
   Examples of this are below:
 
@@ -139,3 +141,67 @@ Netdiscover is an active/passive ARP reconnaissance tool, it discovers hosts on 
     ```
 <a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
 </details>
+
+<details>
+<summary><h2>Vulnerability Analysis</h2><br>
+Vulnerability analysis involves the systematic identification, assessment, and exploitation of weaknesses in computer systems, networks, and applications. This process aims to discover and mitigate security vulnerabilities that could be exploited by attackers to compromise the confidentiality, integrity, or availability of information assets. Vulnerability analysis techniques may include vulnerability scanning, penetration testing, fuzzing, and code review. By identifying and addressing vulnerabilities proactively, organizations can reduce the risk of security breaches and protect their assets from exploitation by malicious actors.
+</summary>
+
+### Vulnerability Analysis Techniques
+
+Vulnerability analysis techniques involve methods for identifying and exploiting vulnerabilities within computer systems, networks, and applications.
+
+#### 1. Fuzzing Tools
+
+Fuzzing is a technique used to discover vulnerabilities in software by sending random, invalid, or unexpected data inputs to target applications or systems. Fuzzing tools automate this process, generating and sending test cases to identify potential vulnerabilities such as buffer overflows, injection flaws, and other security weaknesses.
+
+#### 2. VoIP Tools
+
+Voice over Internet Protocol (VoIP) tools are specialized tools designed to assess the security of VoIP systems and protocols. These tools analyze VoIP traffic, protocols, and configurations to identify vulnerabilities such as unauthorized access, eavesdropping, spoofing, and denial-of-service (DoS) attacks.
+
+### Vulnerability Analysis Tools
+
+Vulnerability analysis tools are software applications designed to assist security professionals in identifying, assessing, and exploiting vulnerabilities in computer systems, networks, and applications.
+
+#### 1. legion (root)
+
+Legion (Root) is a multi-purpose security auditing and penetration testing framework which provides an easy-to-use interface along with an efficient and effective scanning engine.
+
+- YouTube Video: [Legion (Root) - Security Auditing and Penetration Testing Framework](https://www.youtube.com/watch?v=2_rT5CJZ5iU)
+  - Command: `legion`
+    ```
+    legion
+    ```
+
+#### 2. Nikto
+
+Nikto is a web server vulnerability scanner that checks for various known vulnerabilities and misconfigurations in web servers.
+
+- YouTube Video: [Nikto - Web Server Vulnerability Scanner](https://www.youtube.com/watch?v=kAzJOXrEJQY)
+  - Command: `nikto -h <target>`
+    ```
+    nikto -h <target>
+    ```
+
+#### 3. Nmap
+
+Nmap (Network Mapper) is a powerful open-source network scanning tool used for discovering hosts and services on a computer network, thus creating a "map" of the network.
+
+- YouTube Video: [Introduction to Nmap - Network Scanning Basics](https://www.youtube.com/watch?v=6-Uemw0aYXM)
+  - Command: `nmap <target>`
+    ```
+    nmap <target>
+    ```
+
+#### 4. Unix-Privesc-Check
+
+Unix-Privesc-Check is a script to check for simple privilege escalation vectors on Unix systems. It identifies misconfigurations that could allow unprivileged users to escalate their privileges to root.
+
+- YouTube Video: [Unix-Privesc-Check - Checking for Privilege Escalation Vectors](https://www.youtube.com/watch?v=Kt2b5e9rZYY)
+  - Command: `unix-privesc-check`
+    ```
+    unix-privesc-check
+    ```
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
