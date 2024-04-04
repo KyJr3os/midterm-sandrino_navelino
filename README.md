@@ -6,6 +6,29 @@ Kali Linux is a widely used Linux distribution specifically designed for digital
 <details>
 <summary><h2>Information Gathering</h2></summary>
 
+  <summary>Information Gathering Techniques</summary>
+ 
+1. **DNS Analysis**: Examining Domain Name System (DNS) records to gather information about domain names, such as IP addresses, mail servers, and name servers associated with a particular domain.
+
+2. **IDS/IPS Identification**: Detection and identification of Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) on a network to understand security mechanisms in place.
+
+3. **Live Host Identification**: Determining which hosts on a network are currently active and reachable, usually accomplished through techniques such as ping sweeps or ARP scans.
+
+4. **Network Port Scanner**: Using tools like Nmap to scan a network and identify open ports on target systems, providing insights into running services and potential vulnerabilities.
+
+5. **OSINT Analysis (Open-Source Intelligence)**: Gathering information from publicly available sources like websites, social media, and public databases to gather intelligence about targets.
+
+6. **Route Analysis**: Analyzing routing information on a network to understand how data packets are routed between hosts and networks, helping in mapping network topology and identifying attack paths.
+
+7. **SMB Analysis (Server Message Block)**: Analyzing the SMB protocol, commonly used for sharing files, printers, and resources on a network, to gather information about shared resources and potential security vulnerabilities.
+
+8. **SMTP Analysis (Simple Mail Transfer Protocol)**: Analyzing the SMTP protocol used for sending and receiving email messages, providing insights into email server configurations and potential security issues.
+
+9. **SNMP Analysis (Simple Network Management Protocol)**: Analyzing the SNMP protocol used for managing and monitoring network devices, revealing information about device configurations and potential security weaknesses.
+
+10. **SSL Analysis (Secure Sockets Layer)**: Analyzing SSL/TLS certificates and encryption configurations used to secure communications over the network, identifying cryptographic protocols and potential security vulnerabilities.
+
+<summary>Information Gathering Tools</summary>
   Tools in this category are used to gather information about targets, including hosts, networks, and services.<br>
   Examples of this are below:
 
@@ -114,5 +137,5 @@ Netdiscover is an active/passive ARP reconnaissance tool, it discovers hosts on 
     ```
     netdiscover -i eth0
     ```
-
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
 </details>
