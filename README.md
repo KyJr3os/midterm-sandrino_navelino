@@ -480,7 +480,502 @@ Wifite is a wireless auditing tool that automates the process of testing and sec
     ```
     wifite <options>
     ```
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
 
+</details>
+
+<details>
+<summary><h2>Reverse Engineering</h2><br>Reverse engineering is the process of analyzing and understanding the structure and behavior of software systems, hardware components, or other artifacts to extract design information, discover vulnerabilities, or replicate functionality without access to the original source code or documentation.</summary>
+
+### Reverse Engineering Tools
+
+Reverse engineering tools are software applications used to analyze, disassemble, decompile, debug, and manipulate binaries, executables, and other artifacts.
+
+#### 1. NASM Shell
+
+NASM Shell is an interactive shell for the Netwide Assembler (NASM), a popular assembler used for creating assembly language programs. It provides a command-line interface for assembling and debugging x86 assembly code.
+
+- YouTube Video: [NASM Shell - Interactive Assembly Language Programming](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `nasm -f elf32 -o output.o input.asm`
+    ```
+    nasm -f elf32 -o output.o input.asm
+    ```
+
+#### 2. clang
+
+Clang is a C language family frontend for LLVM, providing support for compiling C, C++, and Objective-C programs. It offers a modern compiler infrastructure with features such as static analysis, code generation, and optimization.
+
+- YouTube Video: [Clang - C Language Frontend for LLVM](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `clang -o output input.c`
+    ```
+    clang -o output input.c
+    ```
+
+#### 3. clang++
+
+Clang++ is the C++ language frontend for LLVM, extending the capabilities of Clang to support compiling C++ programs. It offers compatibility with modern C++ standards and features for static analysis, code generation, and optimization.
+
+- YouTube Video: [Clang++ - C++ Language Frontend for LLVM](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `clang++ -o output input.cpp`
+    ```
+    clang++ -o output input.cpp
+    ```
+
+#### 4. radare2
+
+Radare2 is a powerful command-line framework for reverse engineering and analyzing binaries. It provides a wide range of features, including disassembly, debugging, patching, scripting, and binary analysis, making it a versatile tool for reverse engineering tasks.
+
+- YouTube Video: [Radare2 - Command-Line Reverse Engineering Framework](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `radare2 <binary>`
+    ```
+    radare2 <binary>
+    ```
+
+</details>
+
+<details>
+<summary><h2>Exploitation Tools</h2><br>Exploitation tools are software applications used by security professionals and penetration testers to exploit vulnerabilities in target systems, applications, or networks. These tools often automate the process of identifying, exploiting, and gaining unauthorized access to vulnerable systems, allowing testers to assess the security posture of their targets and remediate vulnerabilities.</summary>
+
+### Exploitation Tools
+
+Exploitation tools encompass a variety of software applications designed to identify, exploit, and gain unauthorized access to vulnerable systems, applications, or networks.
+
+#### 1. crackmapexec
+
+CrackMapExec is a post-exploitation tool that can be used to assess and exploit Windows-based systems. It provides features for gathering information, executing commands, and exploiting vulnerabilities in Windows environments.
+
+- YouTube Video: [CrackMapExec - Post-Exploitation Tool for Windows Systems](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `crackmapexec <options>`
+    ```
+    crackmapexec <options>
+    ```
+
+#### 2. Metasploit Framework
+
+Metasploit Framework is a penetration testing platform that enables security researchers and penetration testers to exploit vulnerabilities, create payloads, and conduct post-exploitation activities. It provides a wide range of modules and payloads for various exploitation scenarios.
+
+- YouTube Video: [Metasploit Framework - Penetration Testing](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `msfconsole`
+    ```
+    msfconsole
+    ```
+
+#### 3. MSF Payload Creator
+
+MSF Payload Creator is a tool used for generating various payloads compatible with the Metasploit Framework. It allows users to create custom payloads tailored to their specific exploitation needs, including reverse shells, bind shells, and meterpreter sessions.
+
+- YouTube Video: [MSF Payload Creator - Payload Generation Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `msfvenom <options>`
+    ```
+    msfvenom <options>
+    ```
+
+#### 4. SearchSploit
+
+SearchSploit is a command-line utility for searching and displaying information about exploits and vulnerabilities from the Exploit Database. It allows users to quickly find relevant exploit scripts and details about vulnerabilities that can be exploited in target systems.
+
+- YouTube Video: [SearchSploit - Exploit Database Search Utility](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `searchsploit <search_query>`
+    ```
+    searchsploit <search_query>
+    ```
+
+#### 5. Social Engineering Toolkit (SET)
+
+The Social Engineering Toolkit (SET) is a versatile toolkit for performing social engineering attacks, including phishing campaigns, credential harvesting, and exploitation of human vulnerabilities. It provides a range of attack vectors and modules for crafting convincing social engineering scenarios.
+
+- YouTube Video: [Social Engineering Toolkit (SET) - Exploiting Human Vulnerabilities](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `setoolkit`
+    ```
+    setoolkit
+    ```
+
+#### 6. SQLMap
+
+SQLMap is a popular open-source penetration testing tool used for detecting and exploiting SQL injection vulnerabilities in web applications and databases. It automates the process of identifying SQL injection flaws and extracting sensitive data from vulnerable systems.
+
+- YouTube Video: [SQLMap - Automated SQL Injection Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `sqlmap <options>`
+    ```
+    sqlmap <options>
+    ```
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<details>
+<summary><h2>Sniffling & Spoofing</h2><br>Sniffling & Spoofing techniques and tools are commonly used in network security testing and ethical hacking to intercept network traffic, analyze it for vulnerabilities, and spoof or manipulate network packets for various purposes.</summary>
+
+### Sniffling & Spoofing Techniques
+
+Sniffling & Spoofing techniques involve methods for intercepting and manipulating network traffic to achieve different objectives.
+
+#### 1. Network Sniffers
+
+Network sniffers are tools used to capture and analyze network traffic passing through a network interface. They enable security professionals to inspect packets, extract information, and identify potential security vulnerabilities, such as unencrypted data transmission or insecure protocols.
+
+#### 2. Spoofing & MTM (Man-in-the-Middle)
+
+Spoofing and Man-in-the-Middle (MITM) attacks involve intercepting communication between two parties and manipulating the traffic, often without their knowledge. These attacks can be used to eavesdrop on sensitive information, tamper with data, or impersonate legitimate entities.
+
+### Sniffling & Spoofing Tools
+
+Sniffling & Spoofing tools are software applications used to perform network sniffing, packet manipulation, and spoofing attacks in network security assessments and penetration testing.
+
+#### 1. Ettercap Graphical
+
+Ettercap Graphical is a comprehensive network sniffing and spoofing tool that supports various attack techniques, including ARP poisoning, DNS spoofing, and packet filtering. It provides a user-friendly graphical interface for performing Man-in-the-Middle (MITM) attacks and analyzing intercepted traffic.
+
+- YouTube Video: [Ettercap - Network Sniffing and Spoofing Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `ettercap -G`
+    ```
+    ettercap -G
+    ```
+
+#### 2. Macchanger
+
+Macchanger is a utility for changing the Media Access Control (MAC) address of network interfaces on a system. It allows users to spoof their MAC address to bypass MAC-based access controls or to conduct anonymous network activities.
+
+- YouTube Video: [Macchanger - MAC Address Spoofing Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `macchanger -r <interface>`
+    ```
+    macchanger -r <interface>
+    ```
+
+#### 3. Minicom
+
+Minicom is a terminal emulation program that allows users to interact with remote systems through serial communication. While not specifically designed for sniffing or spoofing, it can be used in conjunction with other tools for debugging and monitoring serial connections.
+
+#### 4. mitmproxy
+
+Mitmproxy is an interactive TLS-capable intercepting proxy for HTTP and HTTPS with a console interface. It allows for HTTP traffic inspection, modification, and replaying, making it useful for debugging, testing, and security assessment of web applications.
+
+- YouTube Video: [Mitmproxy - Intercepting Proxy for HTTP/HTTPS](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `mitmproxy`
+    ```
+    mitmproxy
+    ```
+
+#### 5. Netsniff-ng
+
+Netsniff-ng is a high-performance Linux network sniffer that provides tools for packet capture, analysis, and generation. It offers features for capturing packets at high speeds, filtering traffic based on specific criteria, and performing advanced protocol analysis.
+
+#### 6. Responder
+
+Responder is a tool for performing LLMNR, NBT-NS, and MDNS poisoning attacks to capture user credentials transmitted over the network. It listens for specific network traffic and responds with fake authentication requests to trick users into disclosing their credentials.
+
+#### 7. Scapy
+
+Scapy is a powerful interactive packet manipulation program and library for Python. It allows users to forge or decode packets, send them on the wire, capture them, match requests and replies, and more. Scapy can be used for network analysis, testing, and troubleshooting.
+
+- YouTube Video: [Scapy - Packet Manipulation with Python](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `scapy`
+    ```
+    scapy
+    ```
+
+#### 8. Tcpdump
+
+Tcpdump is a command-line packet analyzer that allows users to capture and display TCP/IP packets transmitted or received over a network interface. It provides extensive filtering options and can save captured packets to a file for later analysis.
+
+- YouTube Video: [Tcpdump - Packet Capture and Analysis](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `tcpdump <options>`
+    ```
+    tcpdump <options>
+    ```
+
+#### 9. Wireshark
+
+Wireshark is a widely-used network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network. It provides a rich set of features for deep inspection of hundreds of protocols, live capture, offline analysis, and packet editing.
+
+- YouTube Video: [Wireshark - Network Protocol Analyzer](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `wireshark`
+    ```
+    wireshark
+    ```
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<details>
+<summary><h2>Post Exploitation</h2><br>Post Exploitation techniques and tools are utilized by attackers after gaining unauthorized access to a system or network to maintain control, extract sensitive information, or perform further malicious activities.</summary>
+
+### Post Exploitation Techniques
+
+Post Exploitation techniques involve methods used by attackers to maintain access, exfiltrate data, or establish persistence after compromising a system or network.
+
+#### 1. OS Backdoors
+
+OS Backdoors are stealthy mechanisms installed on compromised systems to provide attackers with persistent access and control. These backdoors often include remote access tools or hidden user accounts that allow attackers to maintain control over the compromised system.
+
+#### 2. Tunneling & Exfiltration
+
+Tunneling & Exfiltration techniques involve establishing covert communication channels between the attacker's system and the compromised network to bypass security controls and exfiltrate sensitive data. Attackers may use techniques such as encrypted tunnels, covert channels, or data compression to transfer stolen information without detection.
+
+#### 3. Web Backdoors
+
+Web Backdoors are malicious scripts or applications installed on web servers to provide unauthorized access and control to attackers. These backdoors often exploit vulnerabilities in web applications or server configurations to upload and execute malicious code, allowing attackers to maintain persistence and perform further actions.
+
+### Post Exploitation Tools
+
+Post Exploitation tools are software applications used by attackers to maintain control, exfiltrate data, or perform malicious activities on compromised systems or networks.
+
+#### 1. evil-winrm
+
+Evil-WinRM is a Windows Remote Management tool that allows attackers to execute commands remotely on compromised Windows systems. It provides a command-line interface similar to Windows PowerShell, allowing attackers to interact with compromised systems and execute arbitrary commands.
+
+- YouTube Video: [Evil-WinRM - Windows Remote Management Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `evil-winrm -i <target> -u <username> -p <password>`
+    ```
+    evil-winrm -i <target> -u <username> -p <password>
+    ```
+
+#### 2. exe2hex
+
+Exe2Hex is a tool used to convert executable files (EXE) into hexadecimal format. This can be useful for bypassing security controls or antivirus detection by embedding the executable within other files or disguising it as harmless data.
+
+#### 3. Impacket
+
+Impacket is a collection of Python scripts for working with network protocols. It includes tools for creating and manipulating network packets, performing password attacks, and exploiting vulnerabilities in Windows systems. Impacket is widely used by penetration testers and red teamers for post-exploitation activities.
+
+- YouTube Video: [Impacket - Python Network Protocol Library](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `impacket <options>`
+    ```
+    impacket <options>
+    ```
+
+#### 4. Mimikatz
+
+Mimikatz is a powerful post-exploitation tool that allows attackers to extract plaintext passwords, hashes, and other credentials from memory, registry hives, and other sensitive areas of Windows operating systems. It can also perform pass-the-hash attacks and escalate privileges on compromised systems.
+
+- YouTube Video: [Mimikatz - Credential Dumping Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `mimikatz <options>`
+    ```
+    mimikatz <options>
+    ```
+
+#### 5. Netcat
+
+Netcat (nc) is a versatile networking utility that can be used for reading and writing data across network connections. It is commonly used by attackers for creating reverse shells, transferring files, port scanning, and other post-exploitation tasks.
+
+- YouTube Video: [Netcat - Networking Utility](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `nc <options>`
+    ```
+    nc <options>
+    ```
+
+#### 6. PowerShell Empire
+
+PowerShell Empire is a post-exploitation framework that allows attackers to maintain control over compromised Windows systems using a variety of modules and agents. It provides a powerful command-and-control (C2) infrastructure for managing compromised hosts and executing post-exploitation tasks.
+
+- YouTube Video: [PowerShell Empire - Post-Exploitation Framework](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `empire`
+    ```
+    empire
+    ```
+
+#### 7. PowerSploit
+
+PowerSploit is a collection of PowerShell scripts that can be used for offensive security purposes, including post-exploitation activities. It includes modules for persistence, privilege escalation, credential theft, and lateral movement on Windows systems.
+
+- YouTube Video: [PowerSploit - Offensive PowerShell Toolkit](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `powersploit <options>`
+    ```
+    powersploit <options>
+    ```
+
+#### 8. Proxychains4
+
+Proxychains is a tool for routing TCP and DNS network traffic through proxy servers. It can be used by attackers to anonymize their network activities, bypass firewalls, and pivot through compromised systems during post-exploitation operations.
+
+- YouTube Video: [Proxychains - Proxy Routing Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `proxychains4 <options>`
+    ```
+    proxychains4 <options>
+    ```
+
+#### 9. Starkiller
+
+Starkiller is a cross-platform GUI for Empire, a post-exploitation framework for Windows. It provides a user-friendly interface for managing agents, modules, listeners, and other components of the Empire C2 infrastructure.
+
+#### 10. Weevely
+
+Weevely is a stealthy web shell that allows attackers to execute remote commands on compromised web servers. It provides a command-line interface for interacting with the target system, uploading and downloading files, and performing various post-exploitation tasks.
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<details>
+<summary><h2>Forensic</h2><br>Forensic techniques and tools are used in digital forensics investigations to collect, preserve, and analyze evidence from digital devices and systems. This process involves identifying and recovering digital artifacts, analyzing data structures, and reconstructing events to support legal proceedings or incident response activities.</summary>
+
+### Forensic Techniques
+
+Forensic techniques encompass various methods and procedures used in digital forensics investigations to collect, analyze, and interpret digital evidence.
+
+#### 1. Forensic Carving Tools
+
+Forensic Carving Tools are software applications used to recover deleted or damaged files from storage devices by searching for file signatures or specific patterns in raw data. These tools can reconstruct fragmented files and extract valuable evidence even from corrupted or partially overwritten storage media.
+
+#### 2. Forensic Imaging Tools
+
+Forensic Imaging Tools are used to create forensic images or exact copies of storage devices, including hard drives, USB drives, and memory cards. These tools ensure the preservation of digital evidence by capturing every bit of data stored on the original device, allowing forensic analysts to perform thorough investigations without altering the original evidence.
+
+#### 3. PDF Forensics Tools
+
+PDF Forensics Tools are specialized software applications used to analyze PDF (Portable Document Format) files for forensic purposes. These tools extract metadata, analyze document structure, and identify hidden content or malicious code embedded within PDF files, providing valuable insights for digital forensic investigations involving PDF documents.
+
+#### 4. Sleuth Kit Suite
+
+The Sleuth Kit (TSK) Suite is an open-source collection of forensic analysis tools designed to analyze disk images and perform file system analysis on various operating systems. It includes tools for file system examination, timeline analysis, keyword search, and metadata extraction, making it a valuable resource for digital forensic investigations.
+
+### Forensic Tools
+
+Forensic tools are software applications specifically designed for digital forensics investigations, providing capabilities for evidence collection, analysis, and reporting.
+
+#### 1. autopsy (root)
+
+Autopsy is a digital forensics platform that provides a graphical interface for analyzing disk images and performing file system analysis. It includes features for recovering deleted files, extracting artifacts, and generating detailed forensic reports, making it suitable for both novice and experienced forensic examiners.
+
+- YouTube Video: [Autopsy - Digital Forensics Platform](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `autopsy`
+    ```
+    autopsy
+    ```
+
+#### 2. binwalk
+
+Binwalk is a firmware analysis tool used for extracting embedded files and data from firmware images. It can identify file signatures, analyze compression algorithms, and extract filesystems or executable code from firmware images, making it valuable for analyzing IoT devices, embedded systems, and firmware-based attacks.
+
+- YouTube Video: [Binwalk - Firmware Analysis Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `binwalk <options>`
+    ```
+    binwalk <options>
+    ```
+
+#### 3. bulk_extractor
+
+Bulk Extractor is a digital forensics tool used for extracting information such as email addresses, credit card numbers, and other sensitive data from disk images or raw data files. It employs various scanning algorithms and regular expressions to identify and extract relevant information, making it useful for analyzing large datasets and identifying potential evidence.
+
+- YouTube Video: [Bulk Extractor - Digital Forensics Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `bulk_extractor <options>`
+    ```
+    bulk_extractor <options>
+    ```
+
+#### 4. hasdeep
+
+Hasdeep is a hash-based deduplication tool used to identify duplicate files within large datasets or disk images. It calculates cryptographic hashes (e.g., MD5, SHA-1) of files and compares them to identify duplicate content, allowing forensic examiners to reduce storage requirements and focus on unique or relevant data during investigations.
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<details>
+<summary><h2>Reporting Tools</h2><br>Reporting tools are essential components in cybersecurity to document and communicate findings, assessments, and recommendations effectively. These tools enable security professionals to generate comprehensive reports that summarize analysis results, vulnerabilities, incidents, and remediation actions for stakeholders, including clients, management, and regulatory bodies.</summary>
+
+### Reporting Tools
+
+Reporting tools facilitate the creation of detailed and visually appealing reports to convey cybersecurity findings and insights to various stakeholders.
+
+#### 1. Cherry Tree
+
+Cherry Tree is a hierarchical note-taking application with rich text formatting capabilities, making it suitable for organizing and documenting cybersecurity findings, notes, and observations. It supports the creation of structured documents with nested folders, checkboxes, hyperlinks, images, and more, allowing users to create comprehensive and well-organized reports.
+
+- YouTube Video: [Cherry Tree - Note-Taking Application](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `cherrytree`
+    ```
+    cherrytree
+    ```
+
+#### 2. Cutycapt
+
+Cutycapt is a command-line utility that captures screenshots of web pages, enabling security professionals to include visual representations of web-based findings in their reports. It supports various output formats, including PNG, JPEG, and PDF, and can render web pages with JavaScript, making it suitable for capturing dynamic web content for documentation purposes.
+
+- YouTube Video: [Cutycapt - Web Page Screenshot Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `cutycapt --url=<URL> --out=<output_file>`
+    ```
+    cutycapt --url=<URL> --out=<output_file>
+    ```
+
+#### 3. Faraday Start
+
+Faraday Start is a command-line tool for initiating the Faraday Collaborative Penetration Test and Vulnerability Management Platform. It allows users to launch the Faraday server and client applications, providing a centralized environment for conducting penetration tests, managing vulnerabilities, and generating comprehensive reports.
+
+- YouTube Video: [Faraday - Collaborative Penetration Testing Platform](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `faraday`
+    ```
+    faraday
+    ```
+
+#### 4. Maltego (Installer)
+
+Maltego is a data visualization tool used for open-source intelligence and forensics investigations. While the installer version facilitates the installation process, Maltego itself provides capabilities for generating graphical representations of complex relationships among entities gathered from various sources.
+
+- YouTube Video: [Maltego CE Tutorial](https://www.youtube.com/watch?v=EXAMPLE)
+  - Additional Information: Maltego offers Community Edition (CE) for free, with limited functionalities compared to the commercial version.
+    ```
+    Maltego offers Community Edition (CE) for free, with limited functionalities compared to the commercial version.
+    ```
+
+#### 5. Pipal
+
+Pipal is a forensic tool used for analyzing password statistics and trends within a dataset, enabling security professionals to identify common passwords, password patterns, and password complexity levels. It generates statistical reports and visualizations to help assess the strength of password policies and identify potential weaknesses in authentication mechanisms.
+
+- YouTube Video: [Pipal - Password Analysis Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `pipal <options>`
+    ```
+    pipal <options>
+    ```
+
+#### 6. RecordMyDesktop
+
+RecordMyDesktop is a screen recording tool that captures desktop activities and interactions, allowing security professionals to create video demonstrations or tutorials for inclusion in cybersecurity reports. It supports various output formats and recording settings, making it suitable for documenting processes, procedures, and findings in a visually engaging format.
+
+- YouTube Video: [RecordMyDesktop - Screen Recording Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `recordmydesktop --output=<output_file>`
+    ```
+    recordmydesktop --output=<output_file>
+    ```
+    
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<details>
+<summary><h2>Social Engineering Tools</h2><br>Social engineering tools are designed to manipulate human behavior to obtain sensitive information, access, or privileges through deception and psychological manipulation. These tools simulate various social engineering attacks, such as phishing, pretexting, and baiting, to assess the security awareness and resilience of individuals and organizations.</summary>
+
+### Social Engineering Tools
+
+Social engineering tools enable security professionals to conduct simulated attacks to assess the susceptibility of individuals and organizations to social engineering tactics.
+
+#### 1. Maltego (Installer)
+
+Maltego is a data visualization tool used for open-source intelligence and forensics investigations. While the installer version facilitates the installation process, Maltego itself provides capabilities for generating graphical representations of complex relationships among entities gathered from various sources.
+
+- YouTube Video: [Maltego CE Tutorial](https://www.youtube.com/watch?v=EXAMPLE)
+  - Additional Information: Maltego offers Community Edition (CE) for free, with limited functionalities compared to the commercial version.
+    ```
+    Maltego offers Community Edition (CE) for free, with limited functionalities compared to the commercial version.
+    ```
+
+#### 2. MSF Payload Creator
+
+MSF Payload Creator is a tool integrated into the Metasploit Framework for generating custom payloads for use in social engineering attacks. It allows security professionals to create tailored payloads with specific characteristics and functionalities to bypass security defenses and exploit vulnerabilities in target systems.
+
+- YouTube Video: [MSF Payload Creator - Custom Payload Generation](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `msfvenom -p <payload> <options>`
+    ```
+    msfvenom -p <payload> <options>
+    ```
+
+#### 3. Social Engineering Toolkit (Root)
+
+The Social Engineering Toolkit (SET) is a powerful framework for conducting social engineering attacks, including phishing, credential harvesting, and payload delivery. It provides a wide range of attack vectors and features, allowing security professionals to simulate real-world social engineering scenarios and assess the security posture of organizations.
+
+- YouTube Video: [Social Engineering Toolkit (SET) - Overview and Usage](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `setoolkit`
+    ```
+    setoolkit
+    ```
+    
 </details>
 
 
