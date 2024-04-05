@@ -262,4 +262,226 @@ WPScan is a WordPress vulnerability scanner that identifies security vulnerabili
 <a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
 </details>
 
+<details>
+<summary> 
+<h2>Database Assessment</h2><br>
+
+Database Assessment involves evaluating the security of databases to identify vulnerabilities and weaknesses that could compromise the confidentiality, integrity, and availability of data stored within them.
+</summary>
+
+ <summary><h3>Database Assessment Tools</h3></summary>
+
+#### 1. SQLite Database Browser:
+ SQLite Database Browser is a graphical tool used for browsing, analyzing, and managing SQLite database files. It provides a user-friendly interface for viewing table structures, executing SQL queries, and exporting data.
+Command: N/A
+
+#### 2.SQLMap:
+ SQLMap is a powerful open-source tool used for automated SQL injection and database takeover attacks against web applications. It helps security testers identify and exploit SQL injection vulnerabilities by automatically detecting and exploiting them to retrieve database contents.
+Command: sqlmap -u <URL>
+
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+</details>
+
+<details>
+<summary><h2>Password Attacks</h2><br>Password attacks involve methods used to gain unauthorized access to systems or accounts by guessing or cracking passwords.</summary>
+
+### Password Attacks Techniques
+
+Password attacks are methods used to gain unauthorized access to systems or accounts by guessing or cracking passwords.
+
+#### 1. Offline Attacks
+
+Offline attacks involve attempting to crack password hashes obtained from a system or database.
+
+#### 2. Online Attacks
+
+Online attacks involve attempting to log in to a system or service using a list of possible passwords, often through automated means.
+
+#### 3. Passing the Hash Tools
+
+Passing the hash is a technique used to authenticate to a system using the hashed password instead of the actual plaintext password.
+
+#### 4. Password Profiling & Wordlists
+
+Password profiling involves gathering information about a target user to create custom wordlists tailored to their likely passwords.
+
+### Password Attacks Tools
+
+Password attacks tools are software applications designed to facilitate the process of cracking passwords.
+
+#### 1. crewl
+
+crew is a password list generation tool that creates custom wordlists based on various criteria such as word length, character sets, and patterns.
+
+- YouTube Video: [crew - Password List Generation Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `crew <options>`
+    ```
+    crew <options>
+    ```
+
+#### 2. crunch
+
+crunch is a wordlist generator that allows users to create custom wordlists of a specified length and character set.
+
+- YouTube Video: [crunch - Wordlist Generation Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `crunch <options>`
+    ```
+    crunch <options>
+    ```
+
+#### 3. hashcat
+
+hashcat is a password recovery tool that supports various hashing algorithms and attack modes for cracking password hashes.
+
+- YouTube Video: [hashcat - Password Recovery Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `hashcat <options>`
+    ```
+    hashcat <options>
+    ```
+
+#### 4. hydra
+
+hydra is a network logon cracker that supports multiple protocols for brute-forcing passwords, including HTTP, FTP, SSH, Telnet, and more.
+
+- YouTube Video: [hydra - Network Logon Cracker](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `hydra <options>`
+    ```
+    hydra <options>
+    ```
+
+#### 5. john
+
+john, also known as John the Ripper, is a fast password cracker that supports various cracking modes and hash types.
+
+- YouTube Video: [john - Password Cracker](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `john <options>`
+    ```
+    john <options>
+    ```
+
+#### 6. medusa
+
+medusa is a command-line tool for network authentication brute-forcing, supporting various protocols and services.
+
+- YouTube Video: [medusa - Network Authentication Brute-Forcer](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `medusa <options>`
+    ```
+    medusa <options>
+    ```
+
+#### 7. ncrack
+
+ncrack is a high-speed network authentication cracking tool that supports multiple protocols and services, designed for efficiency and reliability.
+
+- YouTube Video: [ncrack - Network Authentication Cracker](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `ncrack <options>`
+    ```
+    ncrack <options>
+    ```
+
+#### 8. ophcrack
+
+ophcrack is a Windows password cracker based on rainbow tables. It can recover passwords from hashes using precomputed tables.
+
+- YouTube Video: [ophcrack - Windows Password Cracker](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `ophcrack <options>`
+    ```
+    ophcrack <options>
+    ```
+
+#### 9. wordlists
+
+Wordlists are collections of words, phrases, or character combinations used in password attacks to guess or crack passwords.
+
+- YouTube Video: [Wordlists - Password Attack Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `wordlists <options>`
+    ```
+    wordlists <options>
+    ```
+<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
+
+</details>
+
+<details>
+<summary><h2>Wireless Attacks</h2><br>Wireless attacks involve techniques and tools used to exploit vulnerabilities in wireless networks and devices.</summary>
+
+### Wireless Attacks Techniques
+
+Wireless attacks techniques involve methods used to exploit vulnerabilities in wireless networks and devices.
+
+#### 1. 802.11 Wireless Tools
+
+802.11 wireless tools are a set of utilities used for monitoring, analyzing, and attacking Wi-Fi networks. These tools enable users to capture packets, crack encryption keys, and perform various attacks against wireless networks.
+
+#### 2. Bluetooth Tools
+
+Bluetooth tools are specialized utilities designed for analyzing and attacking Bluetooth-enabled devices and networks. These tools allow users to sniff Bluetooth traffic, perform device fingerprinting, and exploit vulnerabilities in Bluetooth implementations.
+
+### Wireless Attacks Tools
+
+Wireless attacks tools are software applications specifically developed for conducting attacks against wireless networks and devices.
+
+#### 1. aircrack-ng
+
+Aircrack-ng is a suite of tools used for assessing Wi-Fi network security. It includes tools for capturing packets, analyzing wireless traffic, and performing attacks such as brute-force cracking of WEP and WPA/WPA2 encryption keys.
+
+- YouTube Video: [Aircrack-ng - Wi-Fi Network Security Assessment](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `aircrack-ng <options>`
+    ```
+    aircrack-ng <options>
+    ```
+
+#### 2. fern wifi cracker (root)
+
+Fern Wifi Cracker is a wireless security auditing and attack tool written in Python. It provides a graphical user interface (GUI) for performing various Wi-Fi attacks, including WEP and WPA/WPA2 key cracking.
+
+- YouTube Video: [Fern Wifi Cracker - Wireless Security Auditing Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `fern-wifi-cracker`
+    ```
+    fern-wifi-cracker
+    ```
+
+#### 3. kismet
+
+Kismet is a wireless network detector, sniffer, and intrusion detection system. It can detect and analyze Wi-Fi networks, Bluetooth devices, and other wireless communications, providing detailed information about nearby wireless activity.
+
+- YouTube Video: [Kismet - Wireless Network Detector and IDS](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `kismet`
+    ```
+    kismet
+    ```
+
+#### 4. pixiewps
+
+Pixiewps is a tool for exploiting the WPS (Wi-Fi Protected Setup) vulnerability to recover WPA/WPA2 passphrases. It performs offline brute-force attacks against the WPS PIN, allowing attackers to retrieve the Wi-Fi password.
+
+- YouTube Video: [Pixiewps - WPS PIN Recovery Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `pixiewps <options>`
+    ```
+    pixiewps <options>
+    ```
+
+#### 5. reaver
+
+Reaver is a popular tool for exploiting the WPS vulnerability to crack WPA/WPA2-PSK passwords. It performs brute-force attacks against the WPS PIN, attempting to recover the Wi-Fi passphrase through automated PIN guessing.
+
+- YouTube Video: [Reaver - WPS PIN Attack Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `reaver <options>`
+    ```
+    reaver <options>
+    ```
+
+#### 6. wifite
+
+Wifite is a wireless auditing tool that automates the process of testing and securing Wi-Fi networks. It combines various wireless attack tools such as Aircrack-ng, Wifite, and Reaver into a single script, simplifying the process of capturing handshakes and cracking passwords.
+
+- YouTube Video: [Wifite - Automated Wireless Attack Tool](https://www.youtube.com/watch?v=EXAMPLE)
+  - Command: `wifite <options>`
+    ```
+    wifite <options>
+    ```
+
+</details>
+
+
 <a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none;">Back to Top</a>
